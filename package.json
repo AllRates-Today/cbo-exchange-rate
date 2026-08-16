@@ -1,0 +1,55 @@
+{
+  "name": "cbo-exchange-rate",
+  "version": "1.2.6",
+  "description": "Official Central Bank of Oman (Oman) daily exchange rates — 48 currencies vs OMR, history since 2022. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "cbo",
+    "central",
+    "bank",
+    "of",
+    "oman",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "omr",
+    "central-bank",
+    "official-rates",
+    "oman",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/cbo/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/cbo-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/cbo-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
