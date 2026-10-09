@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/cbo-exchange-rate.svg)](https://github.com/AllRates-Today/cbo-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/cbo-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/OMR today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbo%3Fsource%3DUSD%26target%3DOMR&query=%24.rate&label=USD%2FOMR%20published%20by%20Central%20Bank%20of%20Oman&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbo/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbo%3Fsource%3DUSD%26target%3DOMR&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbo/)
 
 **Official Central Bank of Oman (Oman) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Oman itself prints, every business day.**
 
@@ -32,6 +34,79 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Oman table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Central Bank of Oman — 96 rates, first 60 shown. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | OMR | buy | 0.1045438 |
+| AED | OMR | sell | 0.1048189 |
+| AUD | OMR | buy | 0.2671104 |
+| AUD | OMR | sell | 0.2678445 |
+| BDT | OMR | buy | 0.0031139 |
+| BDT | OMR | sell | 0.0031466 |
+| BHD | OMR | buy | 1.0183786 |
+| BHD | OMR | sell | 1.0212202 |
+| BRL | OMR | buy | 0.0765459 |
+| BRL | OMR | sell | 0.0767651 |
+| CAD | OMR | buy | 0.2692281 |
+| CAD | OMR | sell | 0.2699481 |
+| CHF | OMR | buy | 0.4609844 |
+| CHF | OMR | sell | 0.4622404 |
+| CNY | OMR | buy | 0.0572656 |
+| CNY | OMR | sell | 0.0574455 |
+| CZK | OMR | buy | 0.0176211 |
+| CZK | OMR | sell | 0.0176731 |
+| DKK | OMR | buy | 0.0575531 |
+| DKK | OMR | sell | 0.0577073 |
+| EGP | OMR | buy | 0.0073232 |
+| EGP | OMR | sell | 0.0073548 |
+| ETB | OMR | buy | 0.0023852 |
+| ETB | OMR | sell | 0.0023927 |
+| EUR | OMR | buy | 0.430272 |
+| EUR | OMR | sell | 0.4314695 |
+| GBP | OMR | buy | 0.5071872 |
+| GBP | OMR | sell | 0.5085465 |
+| HKD | OMR | buy | 0.0489303 |
+| HKD | OMR | sell | 0.049059 |
+| IDR | OMR | buy | 0.0000231 |
+| IDR | OMR | sell | 0.0000232 |
+| INR | OMR | buy | 0.0039694 |
+| INR | OMR | sell | 0.00398 |
+| JOD | OMR | buy | 0.5419901 |
+| JOD | OMR | sell | 0.543939 |
+| JPY | OMR | buy | 0.0024276 |
+| JPY | OMR | sell | 0.0024341 |
+| KES | OMR | buy | 0.0029541 |
+| KES | OMR | sell | 0.0029675 |
+| KRW | OMR | buy | 0.0002871 |
+| KRW | OMR | sell | 0.0002879 |
+| KWD | OMR | buy | 1.2354417 |
+| KWD | OMR | sell | 1.2418954 |
+| LBP | OMR | buy | 0.0000043 |
+| LBP | OMR | sell | 0.0000043 |
+| LKR | OMR | buy | 0.0011604 |
+| LKR | OMR | sell | 0.0011639 |
+| MAD | OMR | buy | 0.0385244 |
+| MAD | OMR | sell | 0.0386476 |
+| MYR | OMR | buy | 0.093922 |
+| MYR | OMR | sell | 0.0942588 |
+| NOK | OMR | buy | 0.0401216 |
+| NOK | OMR | sell | 0.0402396 |
+| NZD | OMR | buy | 0.2150784 |
+| NZD | OMR | sell | 0.215677 |
+| PHP | OMR | buy | 0.0061146 |
+| PHP | OMR | sell | 0.006134 |
+| PKR | OMR | buy | 0.0013844 |
+| PKR | OMR | sell | 0.0013905 |
+
+[Full table on the Central Bank of Oman rates page](https://allratestoday.com/central-bank-rates-api/cbo/) · Source: [Official rates published by CBO, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbo/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
