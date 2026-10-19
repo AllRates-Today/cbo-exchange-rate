@@ -33,79 +33,82 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/cbo').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Central Bank of Oman table](https://allratestoday.com/api/open/central-bank/cbo/table.svg)](https://allratestoday.com/central-bank-rates-api/cbo/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-18** by Central Bank of Oman — 96 rates, first 60 shown. Updated 2026-10-18.
+<details>
+<summary>Table as text: published 2026-10-19 by Central Bank of Oman — 96 rates, first 60 shown. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | OMR | buy | 0.1045438 |
 | AED | OMR | sell | 0.1048189 |
-| AUD | OMR | buy | 0.2666112 |
-| AUD | OMR | sell | 0.267575 |
-| BDT | OMR | buy | 0.0031018 |
-| BDT | OMR | sell | 0.0031212 |
+| AUD | OMR | buy | 0.2677248 |
+| AUD | OMR | sell | 0.268576 |
+| BDT | OMR | buy | 0.0031082 |
+| BDT | OMR | sell | 0.0031235 |
 | BHD | OMR | buy | 1.0162763 |
 | BHD | OMR | sell | 1.0194625 |
 | BRL | OMR | buy | 0.0758384 |
 | BRL | OMR | sell | 0.0760539 |
-| CAD | OMR | buy | 0.2714356 |
-| CAD | OMR | sell | 0.2723735 |
-| CHF | OMR | buy | 0.465511 |
-| CHF | OMR | sell | 0.4677439 |
-| CNY | OMR | buy | 0.0573974 |
-| CNY | OMR | sell | 0.0576106 |
-| CZK | OMR | buy | 0.0177087 |
-| CZK | OMR | sell | 0.0178142 |
-| DKK | OMR | buy | 0.0577114 |
-| DKK | OMR | sell | 0.0579087 |
+| CAD | OMR | buy | 0.2718969 |
+| CAD | OMR | sell | 0.2726243 |
+| CHF | OMR | buy | 0.4657933 |
+| CHF | OMR | sell | 0.467063 |
+| CNY | OMR | buy | 0.0574601 |
+| CNY | OMR | sell | 0.0576227 |
+| CZK | OMR | buy | 0.0177173 |
+| CZK | OMR | sell | 0.0177694 |
+| DKK | OMR | buy | 0.0576836 |
+| DKK | OMR | sell | 0.0578382 |
 | EGP | OMR | buy | 0.0071798 |
 | EGP | OMR | sell | 0.0072072 |
 | ETB | OMR | buy | 0.0023853 |
 | ETB | OMR | sell | 0.0023942 |
-| EUR | OMR | buy | 0.431424 |
-| EUR | OMR | sell | 0.4328555 |
-| GBP | OMR | buy | 0.511104 |
-| GBP | OMR | sell | 0.513744 |
-| HKD | OMR | buy | 0.0489216 |
-| HKD | OMR | sell | 0.049064 |
+| EUR | OMR | buy | 0.4313856 |
+| EUR | OMR | sell | 0.4325475 |
+| GBP | OMR | buy | 0.51168 |
+| GBP | OMR | sell | 0.513051 |
+| HKD | OMR | buy | 0.0489315 |
+| HKD | OMR | sell | 0.0490602 |
 | IDR | OMR | buy | 0.0000231 |
 | IDR | OMR | sell | 0.0000232 |
-| INR | OMR | buy | 0.0040436 |
-| INR | OMR | sell | 0.0040548 |
-| JOD | OMR | buy | 0.5408451 |
-| JOD | OMR | sell | 0.5441696 |
-| JPY | OMR | buy | 0.002429 |
-| JPY | OMR | sell | 0.0024376 |
+| INR | OMR | buy | 0.0040504 |
+| INR | OMR | sell | 0.0040613 |
+| JOD | OMR | buy | 0.5409213 |
+| JOD | OMR | sell | 0.5438621 |
+| JPY | OMR | buy | 0.0024287 |
+| JPY | OMR | sell | 0.0024352 |
 | KES | OMR | buy | 0.0029548 |
 | KES | OMR | sell | 0.002967 |
-| KRW | OMR | buy | 0.0002876 |
-| KRW | OMR | sell | 0.0002886 |
-| KWD | OMR | buy | 1.2337746 |
-| KWD | OMR | sell | 1.2402551 |
+| KRW | OMR | buy | 0.0002883 |
+| KRW | OMR | sell | 0.0002891 |
+| KWD | OMR | buy | 1.2337349 |
+| KWD | OMR | sell | 1.2392571 |
 | LBP | OMR | buy | 0.0000043 |
 | LBP | OMR | sell | 0.0000043 |
-| LKR | OMR | buy | 0.0011593 |
-| LKR | OMR | sell | 0.0011628 |
-| MAD | OMR | buy | 0.0394004 |
-| MAD | OMR | sell | 0.0395448 |
-| MYR | OMR | buy | 0.094037 |
+| LKR | OMR | buy | 0.0011586 |
+| LKR | OMR | sell | 0.0011621 |
+| MAD | OMR | buy | 0.0393443 |
+| MAD | OMR | sell | 0.039544 |
+| MYR | OMR | buy | 0.0940255 |
 | MYR | OMR | sell | 0.0943743 |
-| NOK | OMR | buy | 0.0405954 |
-| NOK | OMR | sell | 0.0409244 |
-| NZD | OMR | buy | 0.2168448 |
-| NZD | OMR | sell | 0.2177945 |
-| PHP | OMR | buy | 0.0060952 |
-| PHP | OMR | sell | 0.006115 |
+| NOK | OMR | buy | 0.0407367 |
+| NOK | OMR | sell | 0.0408557 |
+| NZD | OMR | buy | 0.2170368 |
+| NZD | OMR | sell | 0.2177175 |
+| PHP | OMR | buy | 0.0060851 |
+| PHP | OMR | sell | 0.0061045 |
 | PKR | OMR | buy | 0.0013848 |
 | PKR | OMR | sell | 0.0013911 |
+
+</details>
 
 [Full table on the Central Bank of Oman rates page](https://allratestoday.com/central-bank-rates-api/cbo/) · Source: [Official rates published by CBO, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbo/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -380,7 +383,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/cbo-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/cbo-exchange-rate)
 
 ## 📜 License
