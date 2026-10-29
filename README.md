@@ -47,70 +47,70 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Central Bank of Oman — 96 rates, first 60 shown. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Central Bank of Oman — 96 rates, first 60 shown. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | OMR | buy | 0.1045438 |
 | AED | OMR | sell | 0.1048218 |
-| AUD | OMR | buy | 0.2699136 |
-| AUD | OMR | sell | 0.270655 |
-| BDT | OMR | buy | 0.0030947 |
-| BDT | OMR | sell | 0.0031115 |
-| BHD | OMR | buy | 1.0176229 |
-| BHD | OMR | sell | 1.020814 |
-| BRL | OMR | buy | 0.0718066 |
-| BRL | OMR | sell | 0.0720138 |
-| CAD | OMR | buy | 0.2729793 |
-| CAD | OMR | sell | 0.2737875 |
-| CHF | OMR | buy | 0.4627064 |
-| CHF | OMR | sell | 0.4639672 |
-| CNY | OMR | buy | 0.0575773 |
-| CNY | OMR | sell | 0.0577488 |
-| CZK | OMR | buy | 0.017552 |
-| CZK | OMR | sell | 0.0176035 |
-| DKK | OMR | buy | 0.057131 |
-| DKK | OMR | sell | 0.057284 |
-| EGP | OMR | buy | 0.0068364 |
-| EGP | OMR | sell | 0.0068664 |
-| ETB | OMR | buy | 0.0023852 |
-| ETB | OMR | sell | 0.0023914 |
-| EUR | OMR | buy | 0.4270464 |
-| EUR | OMR | sell | 0.428197 |
-| GBP | OMR | buy | 0.510528 |
-| GBP | OMR | sell | 0.511896 |
-| HKD | OMR | buy | 0.0489496 |
-| HKD | OMR | sell | 0.0490777 |
+| AUD | OMR | buy | 0.2707584 |
+| AUD | OMR | sell | 0.2715405 |
+| BDT | OMR | buy | 0.0030883 |
+| BDT | OMR | sell | 0.0031197 |
+| BHD | OMR | buy | 1.0173533 |
+| BHD | OMR | sell | 1.0205434 |
+| BRL | OMR | buy | 0.0717677 |
+| BRL | OMR | sell | 0.071972 |
+| CAD | OMR | buy | 0.2745406 |
+| CAD | OMR | sell | 0.2752753 |
+| CHF | OMR | buy | 0.4634882 |
+| CHF | OMR | sell | 0.4647513 |
+| CNY | OMR | buy | 0.0576378 |
+| CNY | OMR | sell | 0.0578009 |
+| CZK | OMR | buy | 0.0175613 |
+| CZK | OMR | sell | 0.017613 |
+| DKK | OMR | buy | 0.0572596 |
+| DKK | OMR | sell | 0.0574138 |
+| EGP | OMR | buy | 0.0068356 |
+| EGP | OMR | sell | 0.0068646 |
+| ETB | OMR | buy | 0.0023787 |
+| ETB | OMR | sell | 0.002391 |
+| EUR | OMR | buy | 0.4278528 |
+| EUR | OMR | sell | 0.4290055 |
+| GBP | OMR | buy | 0.5115264 |
+| GBP | OMR | sell | 0.512897 |
+| HKD | OMR | buy | 0.0489459 |
+| HKD | OMR | sell | 0.0490746 |
 | IDR | OMR | buy | 0.0000231 |
 | IDR | OMR | sell | 0.0000232 |
-| INR | OMR | buy | 0.0040364 |
-| INR | OMR | sell | 0.0040471 |
+| INR | OMR | buy | 0.0040319 |
+| INR | OMR | sell | 0.0040426 |
 | JOD | OMR | buy | 0.5408451 |
-| JOD | OMR | sell | 0.5437853 |
-| JPY | OMR | buy | 0.0024316 |
-| JPY | OMR | sell | 0.0024386 |
-| KES | OMR | buy | 0.0029516 |
-| KES | OMR | sell | 0.0029661 |
-| KRW | OMR | buy | 0.0002866 |
-| KRW | OMR | sell | 0.0002874 |
-| KWD | OMR | buy | 1.2320329 |
-| KWD | OMR | sell | 1.2383801 |
+| JOD | OMR | sell | 0.543939 |
+| JPY | OMR | buy | 0.0024341 |
+| JPY | OMR | sell | 0.0024406 |
+| KES | OMR | buy | 0.0029523 |
+| KES | OMR | sell | 0.0029654 |
+| KRW | OMR | buy | 0.0002874 |
+| KRW | OMR | sell | 0.0002882 |
+| KWD | OMR | buy | 1.2329031 |
+| KWD | OMR | sell | 1.2392571 |
 | LBP | OMR | buy | 0.0000043 |
 | LBP | OMR | sell | 0.0000043 |
-| LKR | OMR | buy | 0.0011545 |
-| LKR | OMR | sell | 0.0011581 |
-| MAD | OMR | buy | 0.0389456 |
-| MAD | OMR | sell | 0.0390851 |
-| MYR | OMR | buy | 0.0940255 |
-| MYR | OMR | sell | 0.0943627 |
-| NOK | OMR | buy | 0.0411329 |
-| NOK | OMR | sell | 0.0412532 |
-| NZD | OMR | buy | 0.2153472 |
-| NZD | OMR | sell | 0.2159465 |
-| PHP | OMR | buy | 0.0060003 |
-| PHP | OMR | sell | 0.0060203 |
-| PKR | OMR | buy | 0.001385 |
-| PKR | OMR | sell | 0.0013914 |
+| LKR | OMR | buy | 0.0011554 |
+| LKR | OMR | sell | 0.001159 |
+| MAD | OMR | buy | 0.039001 |
+| MAD | OMR | sell | 0.0391248 |
+| MYR | OMR | buy | 0.0944301 |
+| MYR | OMR | sell | 0.0947809 |
+| NOK | OMR | buy | 0.0414758 |
+| NOK | OMR | sell | 0.0415982 |
+| NZD | OMR | buy | 0.215808 |
+| NZD | OMR | sell | 0.2164085 |
+| PHP | OMR | buy | 0.0060117 |
+| PHP | OMR | sell | 0.0060302 |
+| PKR | OMR | buy | 0.0013842 |
+| PKR | OMR | sell | 0.0013915 |
 
 </details>
 
@@ -276,6 +276,7 @@ The Central Bank of Oman posts indicative buying and selling rates each business
 
 - Publisher's own page: [Foreign Exchange Rates (Indications)](https://cbo.gov.om/Pages/DFESearch.aspx) · [cbo.gov.om](https://cbo.gov.om)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Central Bank of Oman rates page](https://allratestoday.com/central-bank-rates-api/cbo/)
+- In the API: usually by **07:15 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
