@@ -31,75 +31,7 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-<details>
-<summary>Table as text: published 2026-11-15 by Central Bank of Oman — 96 rates, first 60 shown. Updated 2026-11-15.</summary>
-
-| Base | Quote | Type | Rate |
-| --- | --- | --- | ---: |
-| AED | OMR | buy | 0.1045467 |
-| AED | OMR | sell | 0.1048218 |
-| AUD | OMR | buy | 0.2599296 |
-| AUD | OMR | sell | 0.2608375 |
-| BDT | OMR | buy | 0.0030646 |
-| BDT | OMR | sell | 0.0030849 |
-| BHD | OMR | buy | 1.0177578 |
-| BHD | OMR | sell | 1.0209494 |
-| BRL | OMR | buy | 0.0678289 |
-| BRL | OMR | sell | 0.0680224 |
-| CAD | OMR | buy | 0.2690018 |
-| CAD | OMR | sell | 0.2699103 |
-| CHF | OMR | buy | 0.4574696 |
-| CHF | OMR | sell | 0.4592628 |
-| CNY | OMR | buy | 0.057516 |
-| CNY | OMR | sell | 0.0577307 |
-| CZK | OMR | buy | 0.0173255 |
-| CZK | OMR | sell | 0.01742 |
-| DKK | OMR | buy | 0.0565963 |
-| DKK | OMR | sell | 0.0568081 |
-| EGP | OMR | buy | 0.0071843 |
-| EGP | OMR | sell | 0.0072115 |
-| ETB | OMR | buy | 0.0023822 |
-| ETB | OMR | sell | 0.0023924 |
-| EUR | OMR | buy | 0.4231296 |
-| EUR | OMR | sell | 0.4245395 |
-| GBP | OMR | buy | 0.5070336 |
-| GBP | OMR | sell | 0.5090855 |
-| HKD | OMR | buy | 0.0489359 |
-| HKD | OMR | sell | 0.0490802 |
-| IDR | OMR | buy | 0.0000231 |
-| IDR | OMR | sell | 0.0000232 |
-| INR | OMR | buy | 0.0040742 |
-| INR | OMR | sell | 0.0040851 |
-| JOD | OMR | buy | 0.5407689 |
-| JOD | OMR | sell | 0.5441696 |
-| JPY | OMR | buy | 0.0024036 |
-| JPY | OMR | sell | 0.0024114 |
-| KES | OMR | buy | 0.0029513 |
-| KES | OMR | sell | 0.0029638 |
-| KRW | OMR | buy | 0.0002875 |
-| KRW | OMR | sell | 0.0002884 |
-| KWD | OMR | buy | 1.2293901 |
-| KWD | OMR | sell | 1.2385395 |
-| LBP | OMR | buy | 0.0000043 |
-| LBP | OMR | sell | 0.0000043 |
-| LKR | OMR | buy | 0.0011543 |
-| LKR | OMR | sell | 0.0011578 |
-| MAD | OMR | buy | 0.0385716 |
-| MAD | OMR | sell | 0.0386923 |
-| MYR | OMR | buy | 0.0939105 |
-| MYR | OMR | sell | 0.0942588 |
-| NOK | OMR | buy | 0.0400129 |
-| NOK | OMR | sell | 0.0403141 |
-| NZD | OMR | buy | 0.211968 |
-| NZD | OMR | sell | 0.2129435 |
-| PHP | OMR | buy | 0.0060235 |
-| PHP | OMR | sell | 0.0060439 |
-| PKR | OMR | buy | 0.0013865 |
-| PKR | OMR | sell | 0.0013937 |
-
-</details>
-
-[Full table on the Central Bank of Oman rates page](https://allratestoday.com/central-bank-rates-api/cbo/) · Source: [Official rates published by CBO, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbo/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+_The table is filled in by the daily workflow._
 <!-- daily-table:end -->
 
 ## 📦 Installation
